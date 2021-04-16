@@ -6,7 +6,8 @@
 ![image](https://user-images.githubusercontent.com/39319226/114950417-57463a00-9e29-11eb-8e69-2f5a2155e4bd.png)
 
 
-Logo após instaladas as dependências, crie uma cópia do arquivo env_file, localizado na pasta backend. Renomeie a cópia para **.env**, este será o arquivo de configuração onde será feita a conexão com banco de dados. Ele deve seguir o seguinte padrão: 
+Logo após instaladas as dependências, crie uma cópia do arquivo env_file, localizado na pasta backend. Renomeie a cópia para **.env**, este será o arquivo de configuração onde será feita a conexão com banco de dados. Ele deve seguir o seguinte padrão:
+
 ![image](https://user-images.githubusercontent.com/39319226/114959810-26bbcb80-9e3c-11eb-8969-d5aed280f74a.png)
 
 O valor de authSecret pode ser qualquer coisa, ele servirá para gerar um token de validação para conexão com o banco. Serve como parâmetro de segurança. O formato .env é utilizado, pois ele não é enviado para o repositório git com as informações de conexão com o banco. Logo, é uma forma de proteger dados sensíveis.
