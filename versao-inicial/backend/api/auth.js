@@ -23,6 +23,7 @@ module.exports = app => {
             id: user.id,
             name: user.name,
             email: user.email,
+            curso: user.curso,
             admin: user.admin,
             iat: now,
             //exp: now + 10

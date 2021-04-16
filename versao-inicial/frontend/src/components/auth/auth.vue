@@ -7,6 +7,7 @@
 
             <input v-if="showSignUp" v-model="user.name" type="text" placeholder="Nome">
             <input v-model="user.email" name="email" type="text" placeholder="E-mail">
+            <input v-if="showSignUp" v-model="user.curso" name="curso" type="text" placeholder="Curso">
             <input v-model="user.password" name="password" type="password" placeholder="Senha">
             <input v-if="showSignUp" v-model="user.confirmPassword"
             type="password" placeholder="Confirme a Senha">
