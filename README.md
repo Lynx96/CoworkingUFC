@@ -45,7 +45,7 @@ select * from table(indicar nome da tabela requerida)   // visualizar todos os c
 Com o banco criado, também precisaremos do MongoDB, que é utilizado para gerenciar as estatísticas do projeto(Quantidade de programas, projetos e reservas). Clique [aqui](https://www.mongodb.com/try/download/community) para baixar o MongoDB versão Windows 64Bits.
 
 
-Após a instalação do MongoDB, será necessário criar uma pasta no diretório C: com o nome data, e dentro da mesma, uma outra pasta com nome db. O mongoDB precisa desse local para inicializar.
+Após a instalação do MongoDB, será necessário criar uma pasta no diretório C: com o nome data, e dentro da mesma, uma outra pasta com nome db. O mongoDB precisa desse local para inicializar e salvar dados importantes.
 
 ![image](https://user-images.githubusercontent.com/39319226/114970504-f5012f80-9e50-11eb-9802-1d27de35dbd7.png)
 ![image](https://user-images.githubusercontent.com/39319226/114970523-ffbbc480-9e50-11eb-964c-c50db878868b.png)
