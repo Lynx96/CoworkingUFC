@@ -55,6 +55,12 @@ Agora, para executarmos o projeto, basta inserir o comando **npm start** na past
 ![image](https://user-images.githubusercontent.com/39319226/114963042-3fc77b00-9e42-11eb-9075-81dfe46ace1f.png)
 
 
+Após o comando npm start no backend, todas as tabelas do projeto serão criadas, pois está sendo utilizado o Knex JS, um query builder que cria todas as tabelas por meio das migrations, arquivos da pasta backend em que são definidas as tabelas e seus campos.
+
+![image](https://user-images.githubusercontent.com/39319226/114964353-eca2f780-9e44-11eb-9abe-e4a4e43b7240.png)
+
+
+
 Inicialmente, com o banco vazio, não teremos nenhum usuário administrador para logar no sistema e realizar certas ações(insert, update e remove de usuários, por exemplo). Logo, para adicionarmos um usuário administrador, siga os passos a seguir:
 
 1ª Adicione um usuário na pagina de cadastro. 
@@ -69,7 +75,8 @@ Inicialmente, com o banco vazio, não teremos nenhum usuário administrador para
 
 Com isso, o usuário criado se torna administrador, podendo realizar todas as operações basicas do CRUD, além de ter acesso ao menu de Administração. Todos os usuários cadastrados na tela de cadastro são, por padrão, definidos como não administradores.
 
-Agora, é possível acessar as funcionalidades do projeto, seja inserir programas, projetos e reservas, bem como definir novos usuários(administradores ou não)
+Agora, é possível acessar as funcionalidades do projeto, seja inserir programas, projetos e reservas, bem como definir novos usuários\(administradores ou não).
+
 ![image](https://user-images.githubusercontent.com/39319226/114964007-4951e280-9e44-11eb-8145-72829675ce3a.png)
 
 
