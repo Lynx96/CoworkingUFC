@@ -1,5 +1,5 @@
 # coworkingUFC
- Protótipo funcional de uma aplicação web para o espaço de Coworking do Campus da UFC/Sobral
+ Protótipo funcional de uma aplicação web para o espaço de Coworking do Campus da UFC/Sobral.
  
  Após baixar o repositório, será necessário instalar as dependências do NODE para o pleno funcionamento do protótipo. Para isso, utilizamos o **npm i**, tanto para o backend quanto frontend.
 ![image](https://user-images.githubusercontent.com/39319226/114950188-ec94fe80-9e28-11eb-86fd-9dc17c1d2290.png)
@@ -22,7 +22,7 @@ Após a instalação, é necessário adicionar o **caminho de instalação do po
 ![image](https://user-images.githubusercontent.com/39319226/114953498-df7b0e00-9e2e-11eb-8b62-a98e81e202dc.png)
 
 
-Com as dependências do node instaladas e o postgres devidamente configurado, o banco deve ser criado utilizando o CMD. Abaixo, seguem os comandos para utilizar o postgres no CMD
+Com as dependências do node instaladas e o postgres devidamente configurado, o banco deve ser criado utilizando o CMD. Abaixo, seguem os comandos para utilizar o postgres no CMD.
 
 ```
 psql -U postgres    // para acessar o postgres
@@ -41,7 +41,7 @@ select * from table(indicar nome da tabela requerida)   // visualizar todos os c
 
 ```
 
-Com o banco criado, também precisaremos do MongoDB, que é utilizado para gerenciar as estatísticas do projeto(Quantidade de programas, projetos e reservas). Clique [aqui](https://www.mongodb.com/try/download/community) para baixar o MongoDB versão Windows 64Bits
+Com o banco criado, também precisaremos do MongoDB, que é utilizado para gerenciar as estatísticas do projeto(Quantidade de programas, projetos e reservas). Clique [aqui](https://www.mongodb.com/try/download/community) para baixar o MongoDB versão Windows 64Bits.
 
 
 Após a instalação do MongoDB, adicione o caminho de instalação nas variáveis de ambiente, assim como foi feito com o postgres. A pasta usualmente será C:\Program Files\MongoDB\Server\4.4\bin. Então, acesse a pasta bin do programa e execute o arquivo .exe mongod. Ele irá iniciar na porta 27017.
